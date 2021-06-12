@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="./img/logo.png">
+    <title>La Cuisine</title>
+</head>
+<body>
+    <div class="conteiner">
+    <header id="Inicio">
+        <nav>
+            <img src="./img/logow.png">
+            <ul class="list-nav">
+                <li><a href="#">Inciar sesión</a></li>
+                <li><a href="#Registarse">Registrarse</a></li>
+                <li><a href="#Recetas">Recetas</a></li>
+                <li><a href="#Curiosidades">Curiosidades</a></li>
+            </ul>
+        </nav>
+        <h1>LA CUISINE</h1>
+    </header>
+    <main class="main">
+        <h2>Las más populares</h2>
+     <div class="conteiner-cards">
+        <div class="card">
+            <img src="./img/tacos.jpg">
+            <h3>Tacos</h3>
+            <a href="#">Ver receta</a>
+        </div>
+        <div class="card">
+            <img src="./img/cookies.jpg" alt="">
+            <h3>Cookies</h3>
+            <a href="#">Ver receta</a>
+        </div>
+        <div class="card">
+            <img src="./img/pandecampo.jpg" alt="">
+            <h3>Pan de campo</h3>
+            <a href="#">Ver receta</a>
+        </div>
+      </div>
+    </main>
+    <section class="section-1" id="Curiosidades">
+        <h2>CURIOSIDADES</h2>
+    <div class="conteiner-info">
+        <div class="info-princ">
+            <h3>¿Sabias esto de la Yerba Mate?</h3>
+            <ul class="list-ym">
+                <li>Ayuda en la Salud cardiovascular.</li>
+                <li>Aumenta el colesterol <em>bueno</em>.</li>
+                <li>Ayuda a retardar el envejecimiento.</li>
+                <li>Brinda resistencia física.</li>
+            </ul>
+            <button><a href="#">Quiero saber más</a></button>
+        </div>
+        <div class="video">
+             <video src="./vid/pexels-los-muertos-crew-8279902.mp4" autoplay muted loop></video>   
+        </div>     
+    </div>       
+    </section>
+    <section class="section-2" id="Recetas">
+       <div class="grid">
+        <div class="a">
+            <i class="fas fa-bread-slice"></i> 
+            <a href="#">Recetas de Pan y Bolleria</a>
+        </div>
+        <div class="b">
+            <i class="fas fa-hamburger"></i> 
+            <a href="#">Recetas de Comidas Rápidas</a>
+        </div>
+        <div class="c">
+            <i class="fas fa-drumstick-bite"></i>
+            <a href="#">Recetas con Pollo</a>
+        </div>
+        <div class="d">
+            <i class="fas fa-carrot"></i>
+            <a href="#">Recetas Veggies</a>
+        </div>
+        <div class="e">
+            <i class="fas fa-candy-cane"></i>
+            <a href="#">Recetas Dulces</a>
+        </div>
+        <div class="f">
+            <i class="fas fa-fish"></i> 
+            <a href="#">Recetas con Pescado</a>
+        </div>
+       </div>
+    </section>
+    <section class="section-3">
+        <aside class="aside">           
+            <h3>¡Nuestros Cuisiniers!</h3>    
+        <div>
+            <img src="./img/harry.jpg">
+            <div>
+                <p><span>Enrique Stilo - ⭐⭐⭐</span> <br> "Recetas fáciles y rapidas, siempre salen de 10!! ya no tengo que pensar que cocinar en las reuniones, esta todo acá."</p>
+            </div>
+        </div>
+        <div>
+            <img src="./img/Maru.jpg">
+            <div>
+                <p><span>Maria Lopez - ⭐⭐⭐⭐⭐</span><br> "Estoy aprendiendo un monton con las recetas premium, me siento una experta."</p>
+            </div>
+        </div>
+        <div>
+            <img src="./img/betular.jpg" alt="">
+            <div>
+                <p><span>Daniel Betoño - ⭐⭐⭐⭐</span><br> "Las recetas dulces son un 10/10 no fallan nunca."</p>
+            </div>
+        </div>
+    </aside>
+    <div class="registrarse" id="Registarse">
+        <h3>REGISTRATE Y SÉ UN CUISINIER</h3>
+        <div>
+            <p>¡Accede a las recetas premium!</p>
+            <form>
+                <ul>
+                    <li> 
+                        <label>Nombre y Apellido :</label> <input type="text" placeholder="Nombre y apellido">
+                    </li>
+                    <li>
+                        <label>Email :</label> <input type="email" placeholder="Ingrese su mail">
+                    </li>
+                    <li>
+                        <label>Nombre de Usuario :</label> <input type="text" placeholder="Usuario">
+                    </li>
+                    <li>
+                        <label>Contraseña :</label> <input type="password" placeholder="contraseña">
+                    </li>
+                    <li>
+                        <label>Confirme su contraseña :</label> <input type="password" placeholder="contraseña">
+                    </li>
+                    <li>
+                        <input class="enviar" type="submit">
+                    </li>
+                </ul>
+            </form>           
+        </div>
+    </div>
+    </section>
+    <footer class="footer">
+            <div class="logo">
+                <img src="./img/logow.png">
+            </div>
+            <div class="links">
+                <ul class="list-ft">
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li> <a href="#">¿Quienes somos?</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>           
+            </div>           
+        </footer>
+</div>
+</body>
+</html>
