@@ -170,3 +170,21 @@ footer {
     color: white;
     letter-spacing: 1px;
   }
+@media (max-width:1024px) {
+    footer {
+        width: 1024px;
+    }
+}
+@media (max-width:768px){
+    footer {
+        width: 768px;
+    }
+}
+  @media (max-width: 500px) {
+      .conteiner {
+          max-width: 500px;
+      }
+      footer {
+          width: 500px;
+      }
+  }
