@@ -72,11 +72,42 @@ header h1 {
   font-size: 80px;
    
 }
-/* ------------- */
-/* video {
-  max-width: 500px; */
+/* SUBMENU NAV--------- */
+.submenu{
+  margin: 2px;
+  display: none;
+  position: absolute;
 
+}
+.submenu li{
+  float: none;
+  list-style: none;
+  margin: 2px;
+}
+.submenu input {
+  margin: 2px;
+  background: #ac4b1c;
+  border: none ;
+  width: 100px;
+}
+.submenu .enviar {
+  color: white;
+  background: #ac4b1c;
+  border: none;
+  width: 60px;
+  height: 20px;
+  padding: 2px;
+}
+.submenu input::placeholder{
+  color: white;
+}
+
+nav ul li:hover > ul {
+  display: block;
+
+}
 /* MAIN ----------- */
+
 main h2 {
   color: #ff6701;
   font-size: 35px;
@@ -387,4 +418,11 @@ padding: 5px;
   padding: 2px;
   margin: 4px;
   text-align: center;
+}
+
+/* SUBMENU FOOTER -------- */
+.list-ft ul li {
+  list-style: none;
+  color: white;
+  letter-spacing: 1px;
 }
