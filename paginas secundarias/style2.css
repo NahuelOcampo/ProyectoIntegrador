@@ -181,8 +181,17 @@ footer {
     }
 }
   @media (max-width: 500px) {
-      .conteiner {
-          max-width: 500px;
+      h1 {
+          font-size: 40px;
+      }
+      h2 {
+          font-size: 25px;
+      }
+      h3, h4 {
+          font-size: 20px;
+      }
+      .section2  li{
+          font-size: 16px;
       }
       footer {
           width: 500px;

@@ -11,16 +11,12 @@ html {
 }
 
 body {
-  margin: 0;
-  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
   background: #fcecdd ;
 }
-.conteiner {
-  max-width: 1366px;
-  margin: 0 auto;
 
-}
 header {
   background-image: url("img/header.jpg");
   background-repeat: no-repeat ; 
@@ -488,10 +484,9 @@ video {
 }
 
 @media (max-width: 500px) {
-  .conteiner {
-    max-width: 500px;
-    margin: 0 auto;
-  }
+
+  /* HEADER */
+  
   header h1 {
     font-size: 45px;
   }
@@ -499,26 +494,27 @@ video {
   nav a {
     font-size: 15px;
   }
+/* MAIN  */
   .conteiner-cards {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  footer {
-    max-width: 500px;
-    margin: 0 auto;   
-  }
-  footer a,
-  footer i{
-    width: 100%;
-    text-align: justify;
-    font-size: 15px;
-  }
+
+  /* video */ 
   video {
     display: none;
   }
+  .info-princ{
+    width: 100%;
+  }
 
+  .info-princ h3 {
+    margin: 10px 0;
+  }
+
+/* GRID */
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -526,10 +522,7 @@ video {
 
   }
 
-  .grid div a {
-    font: 1x;
-  }
-
+/* SECTION-3 */
   .section-3 {
     margin: 2px;
     display: flex;
@@ -537,17 +530,35 @@ video {
   }
 
   .registrarse {
+    width: 100%;
     height: 320px;
     margin: 5px;
   }
+
   .registrarse div {
     margin: 5px;
   }
+
   .registrarse ul {
     margin: 2px;
   }
 
   .registrarse li {
-    margin: 10px;
+    margin: 10px 0;
   }
+
+/* FOOTER */
+ul.list-ft {
+  margin: 0;
+}
+  footer  {
+    width: 100%;
+  }
+  footer a,
+  footer i{
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+  } 
+
 }

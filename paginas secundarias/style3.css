@@ -128,20 +128,31 @@ footer {
   letter-spacing: 1px;
 }
 @media (max-width:1024px) {
-
   footer {
       width: 1024px;
   }
 }
+
 @media (max-width:768px){
-  .conteiner {
-    width: 768px;
+  h1 {
+    font-size: 60px;
+  }
+  .gif {
+    width: 200px;
+    height: 200px;
   }
   footer {
-      width: 768px;
+    width: 768px;
   }
 }
 @media (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+  }
+  .gif {
+    width: 180px;
+    height: 180px;
+  }
   footer {
     width: 500px;
   } 
