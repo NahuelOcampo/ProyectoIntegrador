@@ -74,14 +74,14 @@ h2 {
     text-align: center;    
 }
 h3 {
-    margin: 5px;
+    margin: 5px 0;
     color: #ff6701;
     font-size: 25px;
     text-align: start;
 }
 
 h4 {
-    margin: 10px;
+    margin: 10px 0;
     color: #fea82f;
     font-size: 20px;
     text-align: center;
@@ -94,6 +94,7 @@ h4 {
     list-style: none;
     color: #ac4b1c;
     font-weight: bold;
+    padding-right: 5px;
 }
 .ingredientes{
     width: 400px;
@@ -126,7 +127,6 @@ footer {
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 1200px;
     margin-top: 30px;
   }
   .logo img{
@@ -164,22 +164,7 @@ footer {
     text-align: center;
   }
 
-/* SUBMENU FOOTER -------- */
-.list-ft ul li {
-    list-style: none;
-    color: white;
-    letter-spacing: 1px;
-  }
-@media (max-width:1024px) {
-    footer {
-        width: 1024px;
-    }
-}
-@media (max-width:768px){
-    footer {
-        width: 768px;
-    }
-}
+
   @media (max-width: 500px) {
       h1 {
           font-size: 40px;
@@ -192,8 +177,5 @@ footer {
       }
       .section2  li{
           font-size: 16px;
-      }
-      footer {
-          width: 500px;
       }
   }

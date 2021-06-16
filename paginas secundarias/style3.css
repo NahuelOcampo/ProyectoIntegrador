@@ -84,7 +84,6 @@ footer {
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 1200px;
     margin-top: 30px;
   }
   .logo img{
@@ -121,17 +120,7 @@ footer {
     margin: 4px;
     text-align: center;
   }
-  /* SUBMENU FOOTER -------- */
-.list-ft ul li {
-  list-style: none;
-  color: white;
-  letter-spacing: 1px;
-}
-@media (max-width:1024px) {
-  footer {
-      width: 1024px;
-  }
-}
+
 
 @media (max-width:768px){
   h1 {
@@ -141,9 +130,7 @@ footer {
     width: 200px;
     height: 200px;
   }
-  footer {
-    width: 768px;
-  }
+
 }
 @media (max-width: 500px) {
   h1 {
@@ -152,8 +139,5 @@ footer {
   .gif {
     width: 180px;
     height: 180px;
-  }
-  footer {
-    width: 500px;
-  } 
+}
 }

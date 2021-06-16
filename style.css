@@ -21,11 +21,11 @@ header {
   background-image: url("img/header.jpg");
   background-repeat: no-repeat ; 
   background-size: cover;
-  padding: 10px; 
+  padding: 10px;
+  width: 100%;
 }
 
 nav {
-  max-height: 50px;
   display: flex;
   align-items: center;
 }
@@ -68,45 +68,13 @@ header h1 {
   font-size: 80px;
    
 }
-/* SUBMENU NAV--------- */
-.submenu{
-  margin: 2px;
-  display: none;
-  position: absolute;
 
-}
-.submenu li{
-  float: none;
-  list-style: none;
-  margin: 2px;
-}
-.submenu input {
-  margin: 2px;
-  background: #ac4b1c;
-  border: none ;
-  width: 100px;
-}
-.submenu .enviar {
-  color: white;
-  background: #ac4b1c;
-  border: none;
-  width: 60px;
-  height: 20px;
-  padding: 2px;
-}
-.submenu input::placeholder{
-  color: white;
-}
-
-nav ul li:hover > ul {
-  display: block;
-
-}
 /* MAIN ----------- */
 
-main h2 {
+.main h2 {
   color: #ff6701;
   font-size: 35px;
+  margin: 7px 0;
 }
 
 .conteiner-cards {
@@ -133,7 +101,7 @@ main img {
   color: #ff6701;
   text-align: center;
   font-size: 30px;
-  margin: 5px;
+  margin: 5px 0;
 }
 
 .card a {
@@ -152,9 +120,7 @@ main img {
 /* SECTION 1 --------------- */
 
 .section-1 {
-  /* border: 1px solid black; */
-  max-width: 1366px;
-  height: 400px;
+
   /* background: rgba(245, 163, 57, 0.2); */
   margin: 15px 0;
   border-radius: 10px;
@@ -162,7 +128,7 @@ main img {
 
 .section-1 h2 {
   color: #ff6701;
-  margin: 15px 7px 7px 7px;
+  margin: 15px 0 7px 0;
   padding: 25px 7px 7px 7px;
   font-size: 30px;
   letter-spacing: 3px;
@@ -177,7 +143,6 @@ main img {
 
 .info-princ {
   width: 600px;
-  height: 320px;
   text-align: center;
 }
 
@@ -280,14 +245,13 @@ video{
 /* SECTION-3 ------------------------ */
 
 .section-3 {
-  /* max-width: 1366px ; */
   display: flex;
   margin: 15px;
 }
 .aside {
   /* border: 1px solid black; */
   box-shadow:inset -3px 0px 3px -3px rgba(245, 163, 57, 0.7);
-  max-width: 500px ;
+   max-width: 500px ; 
   
 }
 .aside img {
@@ -313,9 +277,7 @@ video{
 /* ----------------- */
 
 .registrarse {
-  /* border: 1px solid black; */
-  width: 500px;
-  height: 500px;
+  width: 100%;
 }
 .registrarse h3 {
    color: #ff6701;
@@ -376,10 +338,10 @@ input::placeholder {
 /* FOOTER ----------------- */
 footer {
   background: url(./img/header.jpg);
-  height: 80px;
   display: flex;
   justify-content: start;
   align-items: center;
+  width: 100%;
 }
 .logo {
   margin: 20px;
@@ -416,18 +378,9 @@ padding: 5px;
   text-align: center;
 }
 
-/* SUBMENU FOOTER -------- */
-.list-ft ul li {
-  list-style: none;
-  color: white;
-  letter-spacing: 1px;
-}
-
 /* MEDIA QUERIE EJAWr */
 @media (max-width: 1024px) {
-  .conteiner {
-    max-width: 1024px;
-  }
+
   h1 {
     margin: 15px;
   }
@@ -446,10 +399,6 @@ padding: 5px;
 }
 
 @media (max-width:768px) {
-.conteiner {
-  max-width: 768px;
-  margin: 0 auto;
-}
 
 video {
   width: 300px;
@@ -466,7 +415,6 @@ video {
 }
 
 .registrarse {
-  height: 320px;
   margin: 5px;
 }
 .registrarse div {
@@ -479,7 +427,6 @@ video {
 .registrarse li {
   margin: 10px;
 }
-
 
 }
 
@@ -538,7 +485,6 @@ video {
   }
   .registrarse {
     width: 100%;
-    height: 300px;
     margin: 5px;
   }
 
@@ -551,7 +497,7 @@ video {
   }
 
   .registrarse li {
-    margin: 2px 0;
+    margin: 5px 0;
   }
 
 /* FOOTER */
@@ -561,13 +507,14 @@ ul.list-ft {
   footer  {
     padding: 10px;
     width: 100%;
-  }
+}
   footer a,
   footer ul ul li{
     width: 100%;
     text-align: justify;
     font-size: 12px;
-  } 
+} 
   .logo {
     margin: 2px;
+}
 }
